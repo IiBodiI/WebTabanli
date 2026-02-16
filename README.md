@@ -1,24 +1,42 @@
-📝 Modern Sınıf Not Defteri
-Firebase altyapısı ile güçlendirilmiş, modern, karanlık mod (Dark Mode) destekli ve gerçek zamanlı bir not alma uygulaması. Öğrenciler ve profesyonellerin notlarını organize etmeleri, kategorize etmeleri ve her yerden erişebilmeleri için tasarlanmıştır.
+# 📝 Modern Sınıf Not Defteri (Modern Class Notes)
 
-🚀 Özellikler
-Bu proje, basit bir not defterinden fazlasını sunar:
+![Durum](https://img.shields.io/badge/Durum-Aktif-success)
+![Versiyon](https://img.shields.io/badge/v-1.0-blue)
+![Lisans](https://img.shields.io/badge/Lisans-MIT-orange)
+![Teknoloji](https://img.shields.io/badge/Firebase-Firestore-yellow)
 
-⚡ Gerçek Zamanlı Senkronizasyon: Notlar eklendiği veya güncellendiği anda sayfa yenilenmeden tüm cihazlarda güncellenir (Firebase Firestore).
+Firebase altyapısı ile güçlendirilmiş, modern arayüze (Dark Mode) sahip, gerçek zamanlı ve grup destekli bir not alma uygulaması. Öğrencilerin ve profesyonellerin notlarını organize etmeleri için tasarlanmıştır.
 
-🎨 Modern Karanlık Tasarım: Göz yormayan renk paleti, "Glassmorphism" (buzlu cam) efektli kenar çubuğu ve akıcı geçişler.
+![Ekran Görüntüsü](screenshot.png)
+*(Not: Projenizin ekran görüntüsünü buraya 'screenshot.png' adıyla ekleyebilirsiniz)*
 
-📂 Akıllı Gruplama ve Klasörleme: Notlarınızı "İş", "Okul", "Fikirler" gibi gruplara ayırın.
+## 🚀 Özellikler
 
-✅ Çoklu Seçim ve Toplu İşlemler: Birden fazla notu aynı anda seçin, hepsini tek tıkla başka bir gruba taşıyın.
+Bu proje, standart not defterlerinin ötesinde gelişmiş özellikler sunar:
 
-🔍 Anlık Arama: Başlık, içerik veya kategori bazında milisaniyeler içinde filtreleme yapın.
+* **⚡ Gerçek Zamanlı Senkronizasyon:** Notlar eklendiği an veritabanına (Firestore) yazılır ve sayfayı yenilemeden tüm cihazlarda güncellenir.
+* **🎨 Modern Karanlık Tasarım:** Göz yormayan renk paleti, "Glassmorphism" (buzlu cam) efektli kenar çubuğu ve akıcı geçişler.
+* **📂 Akıllı Gruplama ve Klasörleme:**
+    * Notları oluştururken kategori belirleyebilme.
+    * Kenar çubuğunda otomatik oluşan filtreleme butonları.
+* **✅ Çoklu Seçim ve Toplu İşlemler:**
+    * Birden fazla notu kutucuklarla (checkbox) seçebilme.
+    * "Select All" (Tümünü Seç) özelliği.
+    * Seçilen notları topluca yeni veya mevcut bir gruba taşıma.
+* **🔍 Anlık Arama:** Başlık, içerik veya kategori bazında anında filtreleme.
+* **📱 Tam Duyarlı (Responsive):** Mobil uyumlu, açılır/kapanır kenar çubuğu (Sidebar).
 
-📱 Tam Duyarlı (Responsive): Hem masaüstünde hem de mobil cihazlarda kusursuz çalışır. Mobilde açılır/kapanır menü desteği.
+## 🛠️ Kullanılan Teknolojiler
 
-🛠️ Kullanılan Teknolojiler
-HTML5 & CSS3: Modern Flexbox düzeni, CSS Değişkenleri (Variables) ve Animasyonlar.
+* **Frontend:** HTML5, CSS3 (Flexbox, CSS Variables, Gradients), JavaScript (ES6+ Modules).
+* **Backend / Database:** Google Firebase Firestore (v11).
+* **Font:** Google Fonts (Inter).
 
-JavaScript (ES6+): Modüler yapı ve Asenkron fonksiyonlar (Async/Await).
+## ⚙️ Kurulum ve Çalıştırma
 
-Firebase Firestore (v11): NoSQL bulut veritabanı.
+Bu projeyi kendi bilgisayarınızda çalıştırmak oldukça basittir. Herhangi bir sunucu kurulumuna (Node.js vb.) gerek yoktur.
+
+### 1. Projeyi Klonlayın
+```bash
+git clone [https://github.com/KULLANICI_ADINIZ/sinif-not-defteri.git](https://github.com/KULLANICI_ADINIZ/sinif-not-defteri.git)
+cd sinif-not-defteri
