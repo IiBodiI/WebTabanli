@@ -7,7 +7,7 @@
 
 Firebase altyapısı ile güçlendirilmiş, modern arayüze (Dark Mode) sahip, gerçek zamanlı ve grup destekli bir not alma uygulaması. Öğrencilerin ve profesyonellerin notlarını organize etmeleri için tasarlanmıştır.
 
-![Ekran Görüntüsü](screenshot.png)
+![Ekran Görüntüsü]([screenshot.png](https://github.com/IiBodiI/WebTabanli/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-02-16%20150810.png))
 *(Not: Projenizin ekran görüntüsünü buraya 'screenshot.png' adıyla ekleyebilirsiniz)*
 
 ## 🚀 Özellikler
